@@ -1,4 +1,4 @@
-.calculator {  //setting the width and height of the calculator and positions it in the center of the screen.
+.calculator {  /*setting the width and height of the calculator and positions it in the center of the screen.*/
   width: 400px;
   margin: 50px auto;
   border: 1px solid #ccc;
@@ -7,7 +7,7 @@
   box-shadow: 0 0 10px #ccc;
 }
 
-.calculator-display {  //to style the display area of the calculator.
+.calculator-display {  /*to style the display area of the calculator.*/
   width: 100%;
   height: 80px;
   background-color: #f0f0f0;
@@ -26,7 +26,7 @@
   flex-wrap: wrap;
 }
 
-.calculator-keys button { //to style keys.
+.calculator-keys button { /*to style keys.*/
   width: 25%;
   height: 60px;
   background-color: #fff;
@@ -37,7 +37,7 @@
   cursor: pointer;
 }
 
-.calculator-keys button:hover { //to change background greyish when cursor is hovering.
+.calculator-keys button:hover { /*to change background greyish when cursor is hovering.*/
   background-color: #f0f0f0;
 }
 
@@ -51,14 +51,14 @@
   color: #fff;
 }
 
-.input-display { //to display input floating right.
+.input-display { /*to display input floating right.*/
     font-size: 36px;
     color: #333;
     font-family: sans-serif;
     float: left;
 }
 
-.output-display { //to displau output floating left.
+.output-display { /*to displau output floating left.*/
     font-size: 36px;
     color: #333;
     font-family: sans-serif;
